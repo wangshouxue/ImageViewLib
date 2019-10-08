@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="QMUIRadiusImageViewStyle" format="reference"/>
+    <declare-styleable name="QMUIRadiusImageView">
+        <attr name="qmui_border_width"/>
+        <attr name="qmui_border_color"/>
+        <attr name="qmui_selected_mask_color"/>
+        <attr name="qmui_selected_border_color"/>
+        <attr name="qmui_selected_border_width"/>
+        <attr name="qmui_corner_radius"/>
+        <attr name="qmui_is_oval"/>
+        <attr name="qmui_is_circle"/>
+        <attr name="qmui_is_touch_select_mode_enabled"/>
+    </declare-styleable>
+</resources>
