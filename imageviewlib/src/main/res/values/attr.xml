@@ -12,4 +12,33 @@
         <attr name="qmui_is_circle"/>
         <attr name="qmui_is_touch_select_mode_enabled"/>
     </declare-styleable>
+    <declare-styleable name="RoundButton">
+        <!--        边框宽-->
+        <attr name="rb_borderWidth" format="dimension"/>
+        <attr name="rb_borderColor" format="color"/>
+        <attr name="rb_backgroundColor" format="color"/>
+        <!--        按下的透明度-->
+        <attr name="rb_pressAlpha" format="float"/>
+        <!--        不可点击透明度-->
+        <attr name="rb_unClickAlpha" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="RoundImageView">
+        <!--四周圆角度、左上、右上、左下、右下-->
+        <attr name="corner_radius" />
+        <attr name="corner_radius_top_left" />
+        <attr name="corner_radius_top_right" />
+        <attr name="corner_radius_bottom_left" />
+        <attr name="corner_radius_bottom_right" />
+
+        <!--边框-->
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+
+        <!--是否圆形-->
+        <attr name="is_circle" format="boolean" />
+
+        <!--图片展示类型-->
+        <attr name="android:scaleType" />
+
+    </declare-styleable>
 </resources>
